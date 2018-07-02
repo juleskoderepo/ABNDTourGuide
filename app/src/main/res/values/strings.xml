@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Tour Guide Austin</string>
+    <string name="tab_text_1">Good Eats</string>
+    <string name="tab_text_2">Local Speak</string>
+    <string name="tab_text_3">Sights To See</string>
+    <string name="tab_text_4">Things To Do</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
