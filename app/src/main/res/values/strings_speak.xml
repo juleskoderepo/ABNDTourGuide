@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="i35">Interstate 35</string>
+    <string name="i35_local">35</string>
+    <string name="route1">Route 1</string>
+    <string name="route1_local">Mopac</string>
+    <string name="route183">US Route 183</string>
+    <string name="route183_local">Research Blvd</string>
+    <string name="tx360">Loop 360</string>
+    <string name="tx360_local">360 or Capital of Texas Highway</string>
+    <string name="guadalupe">Guadalupe</string>
+    <string name="guadalupe_local">Gua-da-loop</string>
+    <string name="manchaca">Manchaca</string>
+    <string name="manchaca_local">Man-chack</string>
+    <string name="south_congress">South Congress</string>
+    <string name="south_congress_local">SoCo</string>
+    <string name="burnet">Burnet Rd</string>
+    <string name="burnet_local">Burn-it</string>
+    <string name="lady_bird_lake">Lady Bird Lake</string>
+    <string name="lady_bird_lake_local">Town Lake</string>
+    <string name="east_of_35">East of I35</string>
+    <string name="east_of_35_local">Eastside</string>
+    <string name="ut_guadalupe">Guadalupe (by UT)</string>
+    <string name="ut_guadalupe_local">The Drag</string>
+    <string name="ut">University of Texas at Austin</string>
+    <string name="ut_local">UT</string>
+    <string name="sxsw">South by Southwest (SXSW) Conference and Festivals</string>
+    <string name="sxsw_local">South By</string>
+    <string name="acl">Austin City Limits Music Festival</string>
+    <string name="acl_local">ACL</string>
+</resources>

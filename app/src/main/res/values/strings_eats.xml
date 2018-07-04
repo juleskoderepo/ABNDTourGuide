@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="eats_santorini">Santorini Cafe</string>
+    <string name="eats_santorini_cat">Greek</string>
+    <string name="eats_santorini_addr">11800 N Lamar Blvd, Austin, TX 78753</string>
+    <string name="eats_santorini_web">https://www.facebook.com/Santorini-Cafe-Austin-TX-186609728147903/</string>
+    <string name="eats_santorini_tip">Great outdoor space for kiddos and dogs. Go for the $2.50
+        sangria during Happy Hour, daily 5pm-8pm! They\'ll usually give you a small order of
+        lucumades (Greek beignets) on the house so no need to order dessert. </string>
+    <string name="eats_torchys">Torchy\'s Tacos</string>
+    <string name="eats_torchys_cat">Tex-mex</string>
+    <string name="eats_torchys_addr">5119 Burnet Rd, Austin, TX 78756</string>
+    <string name="eats_torchys_web">https://torchystacos.com/</string>
+    <string name="eats_torchys_tip">Multiple locations. Check out the Taco of the Month.
+        Search the web for the secret menu. Special tacos for the Hot Sauce Festival.
+        Try them all. Not for the faint of heart.</string>
+    <string name="eats_ramen_tatsuya">Ramen Tatsu-ya</string>
+    <string name="eats_ramen_tatsuya_cat">Asian-Japanese</string>
+    <string name="eats_ramen_tatsuya_addr">8557 Research Blvd #126, Austin, TX 78758</string>
+    <string name="eats_ramen_tatsuya_web">http://ramen-tatsuya.com/</string>
+    <string name="eats_ramen_tatsuya_tip">Add a flavor bomb. Try the yodas.</string>
+    <string name="eats_little_deli">Little Deli &amp; Pizza</string>
+    <string name="eats_little_deli_cat">Pizza</string>
+    <string name="eats_little_deli_addr">7101 Woodrow Ave, Austin, TX 78757</string>
+    <string name="eats_little_deli_web">http://littledeliandpizza.com/</string>
+    <string name="eats_little_deli_tip">Little gem hidden in the Crestview neighborhood.
+        NJ-style pies.</string>
+    <string name="eats_bh">Baguette House</string>
+    <string name="eats_bh_cat">Asian-Vietnamese</string>
+    <string name="eats_bh_addr">10901 N Lamar Blvd #C312, Austin, TX 78753</string>
+    <string name="eats_bh_web">http://www.baguettehouseaustin.com/</string>
+    <string name="eats_bh_tip">In the southwest corner of the Chinatown Center.
+        Get a banh mi or two. Wash it down with a Vietnamese iced coffee.</string>
+    <string name="eats_salt_lick">Salt Lick BBQ</string>
+    <string name="eats_salt_lick_cat">BBQ</string>
+    <string name="eats_salt_lick_addr">18300 FM 1826, Driftwood, TX 78619</string>
+    <string name="eats_salt_lick_web">https://saltlickbbq.com/</string>
+    <string name="eats_salt_lick_tip">Worth the hour drive south of Austin for authentic
+        Texas bbq in the Hill Country. It\'s BYOB and bring cash.</string>
+    <string name="eats_kerby_lane">Kerby Lane Cafe</string>
+    <string name="eats_kerby_lane_cat">American</string>
+    <string name="eats_kerby_lane_addr">3704 Kerbey Lane, Austin, TX 78731</string>
+    <string name="eats_kerby_lane_web">https://kerbeylanecafe.com/</string>
+    <string name="eats_kerby_lane_tip">Good for breakfast, lunch, dinner, and late-night.
+        Multiple locations. Weekly and seasonal pancakes.</string>
+    <string name="eats_freebirds">Freebird\'s World Burrito</string>
+    <string name="eats_freebirds_cat">Tex-mex</string>
+    <string name="eats_freebirds_addr">1000 East 41st Ste #260, Austin, TX 78751</string>
+    <string name="eats_freebirds_web">https://freebirds.com/</string>
+    <string name="eats_freebirds_tip">Not an Austin original but definitely a fave.
+        Before there was Chipotle, there was Freebirds. Multiple locations.
+        Try it with some Death sauce. Make your own aluminum foil creation.</string>
+
+</resources>

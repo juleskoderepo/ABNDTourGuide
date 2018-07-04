@@ -1,6 +1,5 @@
 package com.example.android.abndtourguideaustin;
 
-
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.support.v7.widget.LinearLayoutManager;
@@ -8,7 +7,6 @@ import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.TextView;
 
 import java.util.ArrayList;
 
@@ -29,18 +27,28 @@ public class SightsFragment extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-        View rootView = inflater.inflate(R.layout.guide_list,container,false);
+        View rootView = inflater.inflate(R.layout.guide_list, container, false);
 
         // Create an array list of pointsOfInterest and populate
         ArrayList<PointOfInterest> pointsOfInterest = new ArrayList<>();
 
-        pointsOfInterest.add(new PointOfInterest("Texas Capitol","Historic/Government","Central Austin",
-                "https://tspb.texas.gov/prop/tc/tc/capitol.html",
-                "Guided and self-guided tours available."));
-        pointsOfInterest.add(new PointOfInterest("The Bullock Texas State History Museum","Historic/Museum","Central Austin",
-                "https://tspb.texas.gov/prop/tshm/tshm/tshm.html","Take in a show at the IMAX theater"));
-        pointsOfInterest.add(new PointOfInterest("Graffiti Park at Castle Hill","Art","Central Austin",
-                "http://hopecampaign.org/hopeprojects/hope-outdoor-gallery/","Go soon. Getting demolished for condos. Relocating to Carson Creek Ranch in east Austin."));
+        pointsOfInterest.add(new PointOfInterest(getString(R.string.sights_txcap),
+                getString(R.string.sights_txcap_cat), getString(R.string.sights_txcap_addr),
+                getString(R.string.sights_txcap_web), getString(R.string.sights_txcap_tip)));
+        pointsOfInterest.add(new PointOfInterest(getString(R.string.sights_bullock),
+                getString(R.string.sights_bullock_cat), getString(R.string.sights_bullock_addr),
+                getString(R.string.sights_bullock_web), getString(R.string.sights_bullock_tip)));
+        pointsOfInterest.add(new PointOfInterest(getString(R.string.sights_esbmacc),
+                getString(R.string.sights_esbmacc_cat), getString(R.string.sights_esbmacc_addr),
+                getString(R.string.sights_esbmacc_web), getString(R.string.sights_esbmacc_tip)));
+        pointsOfInterest.add(new PointOfInterest(getString(R.string.sights_graffiti_park),
+                getString(R.string.sights_graffiti_park_cat),
+                getString(R.string.sights_graffiti_park_addr),
+                getString(R.string.sights_graffiti_park_web),
+                getString(R.string.sights_graffiti_park_tip)));
+        pointsOfInterest.add(new PointOfInterest(getString(R.string.sights_lbj_lib),
+                getString(R.string.sights_lbj_lib_cat), getString(R.string.sights_lbj_lib_addr),
+                getString(R.string.sights_lbj_lib_web), getString(R.string.sights_lbj_lib_tip)));
 
         recyclerView = rootView.findViewById(R.id.guide_recycler_view);
 

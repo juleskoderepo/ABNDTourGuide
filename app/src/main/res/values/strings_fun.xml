@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="fun_barton_springs">Barton Springs Pool</string>
+    <string name="fun_barton_springs_cat">Swimming</string>
+    <string name="fun_barton_springs_addr">2201 Barton Springs Rd, Austin, TX 78704</string>
+    <string name="fun_barton_springs_web">http://austintexas.gov/department/
+        barton-springs-pool</string>
+    <string name="fun_barton_springs_tip">Open early, 5am, and closes late, 10pm.
+        Closed on Thursdays for cleaning.</string>
+    <string name="fun_zilker">Zilker Metropolitan Park</string>
+    <string name="fun_zilker_cat">Recreation/Picnic</string>
+    <string name="fun_zilker_addr">2100 Barton Springs Rd, Austin, TX, 78704</string>
+    <string name="fun_zilker_web">http://austintexas.gov/department/zilker-metropolitan-park</string>
+    <string name="fun_zilker_tip">Play some disc golf or sand volleyball. Catch a show at the
+        Hillside Theatre. Blues on the Green in the summer. ACL Music Festival in late summer.</string>
+    <string name="fun_lb_lake">Lady Bird Lake</string>
+    <string name="fun_lb_lake_cat">Recreation/Picnic</string>
+    <string name="fun_lb_lake_addr">Downtown</string>
+    <string name="fun_lb_lake_web">http://www.austintexas.gov/page/lady-bird-lake</string>
+    <string name="fun_lb_lake_tip">Look for parking off S 1st and Riverside or N Lamar and
+        W Cesar Chavez. Go for a stroll, run, or bike along the 10-mile Butler
+        Hike-and-Bike Trail. Take a pic with the Stevie Ray Vaughn statue.</string>
+    <string name="fun_butler_park">Butler Park Pitch and Putt</string>
+    <string name="fun_butler_park_cat">Golf</string>
+    <string name="fun_butler_park_addr">201 Lee Barton Dr, Austin, TX 78704</string>
+    <string name="fun_butler_park_web">http://www.butlerparkpitchandputt.com/</string>
+    <string name="fun_butler_park_tip">Fun, affordable 9-hole, par 3 course.</string>
+    <string name="fun_mt_bonnell">Mount Bonnell</string>
+    <string name="fun_mt_bonnell_cat">Hiking/Picnic</string>
+    <string name="fun_mt_bonnell_addr">3800 Mount Bonnell Rd, Austin, TX 78731</string>
+    <string name="fun_mt_bonnell_web">http://www.austintexas.gov/department/mount-bonnell</string>
+    <string name="fun_mt_bonnell_tip">Great views of downtown and the 360 bridge. Dog-friendly
+        (just remember to pick up after your furry friend).</string>
+    <string name="fun_alamo_dh">Alamo Drafthouse</string>
+    <string name="fun_alamo_dh_cat">Movies</string>
+    <string name="fun_alamo_dh_addr">320 E 6th St, Austin, TX 78701</string>
+    <string name="fun_alamo_dh_web">https://drafthouse.com/</string>
+    <string name="fun_alamo_dh_tip">Multiple locations. Get your meal and a show all in one place.
+        Funky, nostalgic pre-show clips. Just don\'t use your cell phone once the lights dim or
+        they\'ll take you out, literally. </string>
+
+</resources>

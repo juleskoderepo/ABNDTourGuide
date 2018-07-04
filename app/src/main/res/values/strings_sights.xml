@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="sights_txcap">The Texas Capitol</string>
+    <string name="sights_txcap_cat">Historic/Government</string>
+    <string name="sights_txcap_addr">1100 Congress Ave, Austin, TX 78701</string>
+    <string name="sights_txcap_web">https://tspb.texas.gov/prop/tc/tc/capitol.html</string>
+    <string name="sights_txcap_tip">Guided and self-guided tours available.</string>
+    <string name="sights_bullock">The Bullock State History Museum</string>
+    <string name="sights_bullock_cat">Historic/Museum</string>
+    <string name="sights_bullock_addr">1800 Congress Ave, Austin, TX 78701</string>
+    <string name="sights_bullock_web">https://www.thestoryoftexas.com/</string>
+    <string name="sights_bullock_tip">Take in a show at the IMAX theater.</string>
+    <string name="sights_lbj_lib">LBJ Presidential Library</string>
+    <string name="sights_lbj_lib_cat">Historic/Library</string>
+    <string name="sights_lbj_lib_addr">2313 Red River St, Austin, TX 78712</string>
+    <string name="sights_lbj_lib_web">http://www.lbjlibrary.org</string>
+    <string name="sights_lbj_lib_tip">Free parking off of Red River in lot #38.</string>
+    <string name="sights_graffiti_park">HOPE Outdoor Gallery aka Graffiti Park at Castle
+        Hill</string>
+    <string name="sights_graffiti_park_cat">Street Art</string>
+    <string name="sights_graffiti_park_addr">1008 Baylor St, Austin, TX 78703</string>
+    <string name="sights_graffiti_park_web">http://hopecampaign.org/hopeprojects/
+        hope-outdoor-gallery/</string>
+    <string name="sights_graffiti_park_tip">Go soon. Getting demolised for condos. Relocating to
+        Carson Creek Ranch in east Austin.</string>
+    <string name="sights_esbmacc">Emma S. Barrientos Mexican American Cultural Center</string>
+    <string name="sights_esbmacc_cat">Cultural Arts</string>
+    <string name="sights_esbmacc_addr">600 River St, Austin, TX 78701</string>
+    <string name="sights_esbmacc_web">http://austintexas.gov/esbmacc</string>
+    <string name="sights_esbmacc_tip">Free parking and admission.</string>
+</resources>
