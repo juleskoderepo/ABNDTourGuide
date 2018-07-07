@@ -72,15 +72,17 @@ public class MainActivity extends AppCompatActivity {
                 return new EatsFragment();
             } else if (position == 2) {
                 return new SightsFragment();
-            } else {
+            } else if (position == 3) {
                 return new FunFragment();
+            } else {
+                return new MusicFragment();
             }
         }
 
         @Override
         public int getCount() {
             // Show 4 total pages.
-            return 4;
+            return 5;
         }
     }
 }

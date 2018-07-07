@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="music_acl">ACL Live at the Moody Theatre</string>
+    <string name="music_acl_cat">Live music</string>
+    <string name="music_acl_addr">310 Willie Nelson Blvd, Austin, TX 78701</string>
+    <string name="music_acl_web">http://acl-live.com/venue/</string>
+    <string name="music_acl_tip">Street parking and parking garages close by on 3rd and 4th Sts.</string>
+    <string name="music_austin360">Austin360 Amphitheater</string>
+    <string name="music_austin360_cat">Live music</string>
+    <string name="music_austin360_addr">9201 Circuit of the Americas Blvd,
+            Del Valle, TX 78617</string>
+    <string name="music_austin360_web">http://austin360amphitheater.com/</string>
+    <string name="music_austin360_tip">Allow time to get out to this venue as it is a 30-45
+            minute drive outside of Austin.</string>
+    <string name="music_bass">Bass Concert Hall</string>
+    <string name="music_bass_cat">Live music</string>
+    <string name="music_bass_addr">2350 Robert Dedman Dr, Austin, TX 78712</string>
+    <string name="music_bass_web">https://texasperformingarts.org/visit/venues/bass-concert-hall</string>
+    <string name="music_bass_tip">Discount when pre-paying for parking.</string>
+    <string name="music_contclub">The Continental Club</string>
+    <string name="music_contclub_cat">Live music</string>
+    <string name="music_contclub_addr">1315 South Congress Ave, Austin, TX 78704</string>
+    <string name="music_contclub_web">http://continentalclub.com/</string>
+    <string name="music_contclub_tip">Cool spot on South Congress. Street parking available but
+            can be tough to find on a busy night.</string>
+    <string name="music_paramount">The Paramount Theatre</string>
+    <string name="music_paramount_cat">Live performances/Film</string>
+    <string name="music_paramount_addr">713 Congress Ave</string>
+    <string name="music_paramount_web">http://www.austintheatre.org/</string>
+    <string name="music_paramount_tip">Not a bad seat in the house. Street and covered parking
+            close.</string>
+    <string name="music_stubbs">Stubb's BBQ</string>
+    <string name="music_stubbs_cat">Live music/BBQ</string>
+    <string name="music_stubbs_addr">801 Red River, Austin, TX 78701</string>
+    <string name="music_stubbs_web">https://www.stubbsaustin.com/</string>
+    <string name="music_stubbs_tip">Get your bbq AND music on at this spot. Gospel brunch on
+        Sundays.</string>
+
+</resources>

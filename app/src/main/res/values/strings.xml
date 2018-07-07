@@ -4,6 +4,7 @@
     <string name="tab_text_2">Good Eats</string>
     <string name="tab_text_3">Sights To See</string>
     <string name="tab_text_4">Fun In Town</string>
+    <string name="tab_text_5">Music Venues</string>
     <string name="name_label">Name:</string>
     <string name="category_label">Category:</string>
     <string name="address_label">Address:</string>
