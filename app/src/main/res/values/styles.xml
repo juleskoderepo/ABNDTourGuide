@@ -17,4 +17,25 @@
 
     <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
 
+    <!-- Style for label text view -->
+    <style name="poi_label_style">
+        <item name="android:layout_width">@dimen/layout_width_textview</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">@dimen/layout_weight_label</item>
+    </style>
+
+    <!-- Style for label text view -->
+    <style name="sp_label_style">
+        <item name="android:layout_width">@dimen/layout_width_textview</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">@dimen/sp_layout_weight_label</item>
+    </style>
+
+    <!-- Style for displayed text text view -->
+    <style name="displaytext_style">
+        <item name="android:layout_width">@dimen/layout_width_textview</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">@dimen/layout_weight_displaytext</item>
+    </style>
+
 </resources>

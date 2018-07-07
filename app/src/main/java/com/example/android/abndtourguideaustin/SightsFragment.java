@@ -2,6 +2,7 @@ package com.example.android.abndtourguideaustin;
 
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
+import android.support.v7.widget.DividerItemDecoration;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
@@ -34,21 +35,27 @@ public class SightsFragment extends Fragment {
 
         pointsOfInterest.add(new PointOfInterest(getString(R.string.sights_txcap),
                 getString(R.string.sights_txcap_cat), getString(R.string.sights_txcap_addr),
-                getString(R.string.sights_txcap_web), getString(R.string.sights_txcap_tip)));
+                getString(R.string.sights_txcap_web),
+                getString(R.string.sights_txcap_tip),
+                R.drawable.texas_state_capitol_bldg));
         pointsOfInterest.add(new PointOfInterest(getString(R.string.sights_bullock),
                 getString(R.string.sights_bullock_cat), getString(R.string.sights_bullock_addr),
-                getString(R.string.sights_bullock_web), getString(R.string.sights_bullock_tip)));
+                getString(R.string.sights_bullock_web), getString(R.string.sights_bullock_tip),
+                R.drawable.texas_state_history_museum));
         pointsOfInterest.add(new PointOfInterest(getString(R.string.sights_esbmacc),
                 getString(R.string.sights_esbmacc_cat), getString(R.string.sights_esbmacc_addr),
-                getString(R.string.sights_esbmacc_web), getString(R.string.sights_esbmacc_tip)));
+                getString(R.string.sights_esbmacc_web), getString(R.string.sights_esbmacc_tip),
+                R.drawable.esb_macc));
         pointsOfInterest.add(new PointOfInterest(getString(R.string.sights_graffiti_park),
                 getString(R.string.sights_graffiti_park_cat),
                 getString(R.string.sights_graffiti_park_addr),
                 getString(R.string.sights_graffiti_park_web),
-                getString(R.string.sights_graffiti_park_tip)));
+                getString(R.string.sights_graffiti_park_tip),
+                R.drawable.hope_graffiti));
         pointsOfInterest.add(new PointOfInterest(getString(R.string.sights_lbj_lib),
                 getString(R.string.sights_lbj_lib_cat), getString(R.string.sights_lbj_lib_addr),
-                getString(R.string.sights_lbj_lib_web), getString(R.string.sights_lbj_lib_tip)));
+                getString(R.string.sights_lbj_lib_web), getString(R.string.sights_lbj_lib_tip),
+                R.drawable.lbj_library_2017));
 
         recyclerView = rootView.findViewById(R.id.guide_recycler_view);
 
@@ -63,6 +70,10 @@ public class SightsFragment extends Fragment {
         //specify an adapter
         rVAdapter = new POIRecyclerViewAdapter(pointsOfInterest);
         recyclerView.setAdapter(rVAdapter);
+
+        // add a divider between each item
+        recyclerView.addItemDecoration(new DividerItemDecoration(getContext(),
+                DividerItemDecoration.VERTICAL));
 
         return rootView;
     }

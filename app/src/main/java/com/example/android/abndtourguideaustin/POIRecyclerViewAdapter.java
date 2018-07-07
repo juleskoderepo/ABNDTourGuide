@@ -5,21 +5,23 @@ import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ImageView;
 import android.widget.TextView;
 
 import java.util.ArrayList;
 
-public class POIRecyclerViewAdapter extends RecyclerView.Adapter<POIRecyclerViewAdapter.POIViewHolder>{
+public class POIRecyclerViewAdapter extends RecyclerView.Adapter<POIRecyclerViewAdapter.POIViewHolder> {
     private ArrayList<PointOfInterest> PointsList;
 
-    public static class POIViewHolder extends RecyclerView.ViewHolder{
+    public static class POIViewHolder extends RecyclerView.ViewHolder {
         TextView nameTV;
         TextView categoryTV;
         TextView addressTV;
         TextView websiteTV;
         TextView localTipTV;
+        ImageView imageView;
 
-        public POIViewHolder(View itemView){
+        public POIViewHolder(View itemView) {
             super(itemView);
 
             nameTV = itemView.findViewById(R.id.name);
@@ -27,6 +29,7 @@ public class POIRecyclerViewAdapter extends RecyclerView.Adapter<POIRecyclerView
             addressTV = itemView.findViewById(R.id.address);
             websiteTV = itemView.findViewById(R.id.website);
             localTipTV = itemView.findViewById(R.id.local_tip);
+            imageView = itemView.findViewById(R.id.location_image);
         }
 
     }
@@ -38,7 +41,7 @@ public class POIRecyclerViewAdapter extends RecyclerView.Adapter<POIRecyclerView
      *
      * @param pointsOfInterest an array list of points of interest.
      */
-    public POIRecyclerViewAdapter(ArrayList<PointOfInterest> pointsOfInterest){
+    public POIRecyclerViewAdapter(ArrayList<PointOfInterest> pointsOfInterest) {
         PointsList = pointsOfInterest;
     }
 
@@ -65,7 +68,7 @@ public class POIRecyclerViewAdapter extends RecyclerView.Adapter<POIRecyclerView
         holder.addressTV.setText(currentPoint.getAddress());
         holder.websiteTV.setText(currentPoint.getWebsite());
         holder.localTipTV.setText(currentPoint.getLocalTips());
+        holder.imageView.setImageResource(currentPoint.getImageResourceID());
 
-        //super.onBindViewHolder(holder, position, payloads);
     }
 }

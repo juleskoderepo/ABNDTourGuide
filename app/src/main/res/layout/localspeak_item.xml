@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/layout_padding_vertical"
+    android:paddingLeft="@dimen/layout_padding_horizontal"
+    android:paddingRight="@dimen/layout_padding_horizontal"
+    android:paddingTop="@dimen/layout_padding_vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            style="@style/sp_label_style"
+            android:text="@string/common_label" />
+
+        <TextView
+            android:id="@+id/common"
+            style="@style/displaytext_style"
+            tools:text="@string/tools_text_common" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            style="@style/sp_label_style"
+            android:text="@string/localsp_label" />
+
+        <TextView
+            android:id="@+id/localsp"
+            style="@style/displaytext_style"
+            tools:text="@string/tools_text_localsp" />
+
+    </LinearLayout>
+
+</LinearLayout>
